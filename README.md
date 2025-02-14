@@ -20,8 +20,8 @@ The dataset used for this project is the **Boston Housing dataset**, which conta
 - **LSTAT** (Lower status of the population)
 
 You can download the dataset from the **UCI Machine Learning Repository** or from **Scikit-learn's built-in datasets**.
-`house_price_dataset = sklearn.datasets.load_boston()`
-will not work
+
+`house_price_dataset = sklearn.datasets.load_boston()` -- will not work
 
 # Why??
 The Boston housing prices dataset has an ethical problem: as
